@@ -1,0 +1,67 @@
+a{
+    color:white;
+    background-color:#23c9b9;
+    font-family:'Times New Roman', Times, serif, Helvetica, sans-serif;;
+    font-size: 40px;
+    border-style:solid;
+    border-color:#23c9b9;
+    border-radius: 8%;
+
+}
+body{
+    background-color:#131720;
+}
+
+#form{
+    float:right;
+    background-color: #151f30;
+   
+    width: 200px;
+    height: 30px;
+    border-radius:11px ;
+}
+input{
+    all:unset;
+    font:15px system-ui;
+    color:white;
+    height:100%;
+    width:100%;
+    padding:6px 9px;
+}
+/* all: unset;: This rule sets all CSS properties to their initial values, effectively resetting any styles that may have been applied to the element or its children. It's a way to start with a clean slate for styling.
+
+font: 15px system-ui;: This rule sets the font properties for the element. It sets the font size to 15 pixels and the font family to the system-ui font, which typically refers to the system's default UI font.
+
+color: white;: This rule sets the text color to white. This will make the text content of the element and its descendants appear in white color.
+
+height: 100%;: This rule sets the height of the element to 100% of its containing element's height. This means the element will take up the entire vertical space of its container.
+
+width: 100%;: This rule sets the width of the element to 100% of its containing element's width. This means the element will take up the entire horizontal space of its container.
+
+padding: 6px 9px;: This rule sets the padding of the element. Padding is the space between the content of the element and its border. Here, it sets the top and bottom padding to 6 pixels and the left and right padding to 9 pixels.
+ */
+
+ .thumbnail{
+    height:200px;
+    width:150px;
+    border-radius:7%;
+
+
+ }
+
+ .column{
+    float:left;
+    width:15%;
+    padding:10px 10px;
+
+ }
+ .card{
+    border-radius:7%;
+    padding: 10%;
+    text-align:center;
+    background-color:#151f30;
+ }
+h3{
+    color:#E2DFD2;
+    font-family:Arial, Helvetica, sans-serif;
+}
